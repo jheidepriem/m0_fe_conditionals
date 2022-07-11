@@ -1,7 +1,7 @@
 var number = 6;
 var result = number % 4; // 2
 
-var number = prompt("number:");
+var number = ("7");
 if (number % 2 == 0){
   console.log("The number is even")
   }
