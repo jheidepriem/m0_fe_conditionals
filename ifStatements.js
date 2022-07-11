@@ -45,7 +45,7 @@ if (weather === "sunny") {
 var numQuarters = 0
 
 if (numQuarters === 0){
-  console.log ("I don't have enough money for a gumball");
+  console.log("I don't have enough money for a gumball");
 }
 else if (numQuarters >= .50){
   console.log("I have enough money for a gumball");
@@ -69,14 +69,15 @@ else if (numQuarters >= .50){
 var cupsOfFlour = 1;
 var hasSauce = true;
 
-if (cupsOfFlour === 1 && hasSauce === true)
-# true ("I cannot make pizza")
-
-if (cupsOfFlour === 5 && hasSauce === false)
-# false ("I cannot make pizza")
-
-if (cupsOfFlour === 2 && hasSauce === true)
-# true ("I can make pizza")
-
-if (cupsOfFlour === 3 && hasSauce === true)
-# true ("I can make pizza")
+if (cupsOfFlour === 1 && hasSauce === true){
+console.log("I cannot make pizza");
+}
+if (cupsOfFlour === 5 && hasSauce === false){
+console.log("I cannot make pizza");
+}
+if (cupsOfFlour === 2 && hasSauce === true){
+console.log("I can make pizza");
+}
+if (cupsOfFlour === 3 && hasSauce === true){
+console.log("I can make pizza");
+}
